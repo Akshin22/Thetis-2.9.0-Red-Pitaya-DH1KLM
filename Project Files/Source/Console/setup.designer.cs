@@ -373,6 +373,7 @@
             this.labelTS10 = new System.Windows.Forms.LabelTS();
             this.chkCalExpert = new System.Windows.Forms.CheckBoxTS();
             this.grpGenCalLevel = new System.Windows.Forms.GroupBoxTS();
+            this.btnResetLevelCal = new System.Windows.Forms.Button();
             this.ud6mRx2LNAGainOffset = new System.Windows.Forms.NumericUpDownTS();
             this.lblRx26mLNA = new System.Windows.Forms.LabelTS();
             this.ud6mLNAGainOffset = new System.Windows.Forms.NumericUpDownTS();
@@ -3310,7 +3311,6 @@
             this.panelTS4 = new System.Windows.Forms.PanelTS();
             this.radioButtonTS5 = new System.Windows.Forms.RadioButtonTS();
             this.radioButtonTS6 = new System.Windows.Forms.RadioButtonTS();
-            this.btnResetLevelCal = new System.Windows.Forms.Button();
             tpAlexAntCtrl = new System.Windows.Forms.TabPage();
             numericUpDownTS3 = new System.Windows.Forms.NumericUpDownTS();
             numericUpDownTS4 = new System.Windows.Forms.NumericUpDownTS();
@@ -9320,6 +9320,17 @@
             this.grpGenCalLevel.TabIndex = 8;
             this.grpGenCalLevel.TabStop = false;
             this.grpGenCalLevel.Text = "Level Cal";
+            // 
+            // btnResetLevelCal
+            // 
+            this.btnResetLevelCal.Location = new System.Drawing.Point(42, 109);
+            this.btnResetLevelCal.Name = "btnResetLevelCal";
+            this.btnResetLevelCal.Size = new System.Drawing.Size(75, 23);
+            this.btnResetLevelCal.TabIndex = 19;
+            this.btnResetLevelCal.Text = "Reset";
+            this.toolTip1.SetToolTip(this.btnResetLevelCal, "Click to reset the freq  correction factor");
+            this.btnResetLevelCal.UseVisualStyleBackColor = true;
+            this.btnResetLevelCal.Click += new System.EventHandler(this.btnResetLevelCal_Click);
             // 
             // ud6mRx2LNAGainOffset
             // 
@@ -27118,7 +27129,7 @@
             this.lblAdvancedAudioWarning.Image = null;
             this.lblAdvancedAudioWarning.Location = new System.Drawing.Point(56, 22);
             this.lblAdvancedAudioWarning.Name = "lblAdvancedAudioWarning";
-            this.lblAdvancedAudioWarning.Size = new System.Drawing.Size(593, 16);
+            this.lblAdvancedAudioWarning.Size = new System.Drawing.Size(612, 16);
             this.lblAdvancedAudioWarning.TabIndex = 93;
             this.lblAdvancedAudioWarning.Text = "WARNING: these settings may cause undesirable side effects if changed from defaul" +
     "t";
@@ -52617,17 +52628,6 @@
             this.radioButtonTS6.TabStop = true;
             this.radioButtonTS6.Text = "Auto";
             this.radioButtonTS6.UseVisualStyleBackColor = true;
-            // 
-            // btnResetLevelCal
-            // 
-            this.btnResetLevelCal.Location = new System.Drawing.Point(42, 109);
-            this.btnResetLevelCal.Name = "btnResetLevelCal";
-            this.btnResetLevelCal.Size = new System.Drawing.Size(75, 23);
-            this.btnResetLevelCal.TabIndex = 19;
-            this.btnResetLevelCal.Text = "Reset";
-            this.toolTip1.SetToolTip(this.btnResetLevelCal, "Click to reset the freq  correction factor");
-            this.btnResetLevelCal.UseVisualStyleBackColor = true;
-            this.btnResetLevelCal.Click += new System.EventHandler(this.btnResetLevelCal_Click);
             // 
             // Setup
             // 
