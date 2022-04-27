@@ -1,3 +1,6 @@
+![red pitaya setup](https://user-images.githubusercontent.com/27503182/165502538-605ff5ce-546e-4350-9a31-66eb5a979e11.png)
+
+Red Pitaya now in "Radio Model" list. Supporting 384k sample rate.
 
 ![setup-transmit](https://user-images.githubusercontent.com/27503182/164970872-2113a693-620e-4f35-8c5a-70807a29e4c5.JPG)
 
