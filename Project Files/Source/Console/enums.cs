@@ -74,7 +74,8 @@
         ANAN200D,
         ORIONMKII,
         ANAN7000D,
-        ANAN8000D
+        ANAN8000D,
+        REDPITAYA
     }
 
     public enum HPSDRModel
@@ -91,6 +92,7 @@
         ORIONMKII,
         ANAN7000D,
         ANAN8000D,
+        REDPITAYA,
         LAST
     }
 
@@ -355,7 +357,8 @@
         HermesII = 2, // ANAN-10E ANAN-100B HeremesII
         Angelia = 3,  // ANAN-100D
         Orion = 4,    // ANAN-200D
-        OrionMKII = 5 // AMAM-7000DLE 7000DLEMkII ANAN-8000DLE OrionMkII
+        OrionMKII = 5, // AMAM-7000DLE 7000DLEMkII ANAN-8000DLE OrionMkII
+        RedPitaya = 6 // ANAN-7000DLE Emulation
     }
 
     public enum DSPFilterType

@@ -9288,9 +9288,10 @@ namespace Thetis
                                 else if (getRadioSelectedFromOldRadButton(ref tempTable, "radGenModelANAN200D")) sRad = "ANAN-200D";
                                 else if (getRadioSelectedFromOldRadButton(ref tempTable, "radGenModelANAN7000D")) sRad = "ANAN-7000DLE";
                                 else if (getRadioSelectedFromOldRadButton(ref tempTable, "radGenModelANAN8000D")) sRad = "ANAN-8000DLE";
+                                else if (getRadioSelectedFromOldRadButton(ref tempTable, "radGenModelREDPITAYA")) sRad = "RED-PITAYA";
                                 //else if (getRadioSelectedFromOldRadButton(ref tempTable, "radGenModelORIONMKII")) sRad = ""; // not implemented in comboRadioModel list items
 
-                                if(sRad != "") // a radio has been previously selected
+                                if (sRad != "") // a radio has been previously selected
                                 {
                                     //Debug.Print("** FOUND OLD RADIO SETTING : " + sRad);
                                     row["Value"] = sRad;
