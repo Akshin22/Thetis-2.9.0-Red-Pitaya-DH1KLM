@@ -676,6 +676,9 @@ namespace Thetis
                                         case 5:
                                             hpsdrd.deviceType = HPSDRHW.Orion;
                                             break;
+                                        case 6:
+                                            hpsdrd.deviceType = HPSDRHW.RedPitaya; // DH1KLM
+                                            break;
                                         case 10:
                                             hpsdrd.deviceType = HPSDRHW.OrionMKII;
                                             break;

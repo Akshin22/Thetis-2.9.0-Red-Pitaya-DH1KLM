@@ -8952,6 +8952,7 @@ namespace Thetis
                     case HPSDRHW.Angelia: // ANAN-100D
                     case HPSDRHW.Orion: // ANAN-200D
                     case HPSDRHW.OrionMKII: // AMAM-7000DLE 7000DLEMkII ANAN-8000DLE OrionMkII
+                    case HPSDRHW.RedPitaya: // ANAN-7000DLE Emulation // DH1KLM
                         switch (tot)
                         {
                             case 0: // off[2] off[1] off[0]
@@ -9045,6 +9046,7 @@ namespace Thetis
                     case HPSDRHW.Angelia: // ANAN-100D (all 5 adc)
                     case HPSDRHW.Orion: // ANAN-200D
                     case HPSDRHW.OrionMKII: // AMAM-7000DLE 7000DLEMkII ANAN-8000DLE OrionMkII
+                    case HPSDRHW.RedPitaya: // ANAN-7000DLE Emulation
                         switch (tot)
                         {
                             case 0: // off off off

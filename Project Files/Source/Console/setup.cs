@@ -6927,8 +6927,7 @@ namespace Thetis
 
             if (console.CurrentHPSDRModel == HPSDRModel.ANAN200D ||
                 console.CurrentHPSDRModel == HPSDRModel.ANAN7000D ||
-                console.CurrentHPSDRModel == HPSDRModel.ANAN8000D ||
-                console.CurrentHPSDRModel == HPSDRModel.REDPITAYA)
+                console.CurrentHPSDRModel == HPSDRModel.ANAN8000D)
             {
                 groupBoxHPSDRHW.Visible = false;
                 grpGeneralHardwareORION.Visible = true;
@@ -9500,7 +9499,7 @@ namespace Thetis
                     console.CurrentBreakInMode = BreakIn.Manual;
                     break;
                 case CheckState.Indeterminate:
-                    if ((console.CurrentHPSDRHardware == HPSDRHW.Orion || console.CurrentHPSDRHardware == HPSDRHW.OrionMKII) &&
+                    if ((console.CurrentHPSDRHardware == HPSDRHW.Orion || console.CurrentHPSDRHardware == HPSDRHW.OrionMKII || console.CurrentHPSDRHardware == HPSDRHW.RedPitaya) && //DH1KLM
                         (NetworkIO.FWCodeVersion >= 17) &&
                         !Alex.trx_ant_not_same)
                     {
@@ -21079,10 +21078,10 @@ namespace Thetis
                     chkRX2StepAtt_CheckedChanged(this, EventArgs.Empty);
                     chkEXT1OutOnTx.Text = "Ext 1 on Tx";
                     chkEXT2OutOnTx.Text = "Rx BYPASS on Tx";
-                    chkAlexPresent.Parent = grpGeneralHardwareORION;
-                    chkAlexPresent.Location = new Point(43, 120);
-                    chkApolloPresent.Parent = grpGeneralHardwareORION;
-                    chkApolloPresent.Location = new Point(43, 140);
+                    //chkAlexPresent.Parent = grpGeneralHardwareORION; // DH1KLM
+                    //chkAlexPresent.Location = new Point(43, 120);
+                    //chkApolloPresent.Parent = grpGeneralHardwareORION;
+                    //chkApolloPresent.Location = new Point(43, 140);
                     panelAlex1HPFControl.Visible = false;
                     panelBPFControl.Visible = true;
                     chkDisable6mLNAonRX.Parent = panelBPFControl;
