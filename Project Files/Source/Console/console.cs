@@ -10881,7 +10881,7 @@ namespace Thetis
             float diffRX2 = level - (avg + rx2_meter_cal_offset + rx2_preamp_offset[(int)rx2_preamp_mode]); // MW0LGE_[2.9.0.6]
             rx1_meter_cal_offset += diff;
             rx2_meter_cal_offset += diffRX2; //rx1_meter_cal_offset;
-            //rx_meter_cal_offset_by_radio[(int)current_hpsdr_model] = rx1_meter_cal_offset;  // MW0LGE_[2.9.0.6] done below
+            rx_meter_cal_offset_by_radio[(int)current_hpsdr_model] = rx1_meter_cal_offset;  // MW0LGE_[2.9.0.6] done below
 
             // calculate the difference between the current value and the correct spectrum value
             diff = level - (avg2 + rx1_display_cal_offset + rx1_preamp_offset[(int)rx1_preamp_mode]);
