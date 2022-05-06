@@ -347,11 +347,6 @@
     </Compile>
     <Compile Include="N1MM.cs" />
     <Compile Include="NetworkThrottle.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="ShutdownForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -695,7 +690,6 @@
     <EmbeddedResource Include="frmLog.resx">
       <DependentUpon>frmLog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\picD1orig.png" />
     <None Include="Resources\cpu.png" />
     <EmbeddedResource Include="Resources\picD2.png" />
     <EmbeddedResource Include="Resources\star.png" />
@@ -706,9 +700,7 @@
     <EmbeddedResource Include="KE9N\swl.resx">
       <DependentUpon>swl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\met3.jpg" />
     <EmbeddedResource Include="Resources\picD1.png" />
-    <EmbeddedResource Include="Resources\s-meter-collins3.png" />
     <EmbeddedResource Include="Resources\sun.png" />
     <EmbeddedResource Include="Resources\digital7.ttf" />
     <None Include="Resources\grabbing.cur" />
@@ -767,7 +759,6 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="PSForm.resx">
       <DependentUpon>PSForm.cs</DependentUpon>
@@ -831,7 +822,6 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <Content Include="CAT\CATStructs.xml" />
-    <Content Include="Resources\hpsdr5-64.ico" />
     <EmbeddedResource Include="Resources\swiss.ttf" />
     <EmbeddedResource Include="Resources\swissb.ttf" />
     <EmbeddedResource Include="Resources\swissbi.ttf" />
