@@ -9214,9 +9214,7 @@ namespace Thetis
 
             if (_DX2Brushes.ContainsKey(newC)) return _DX2Brushes[newC];
 
-            SolidBrush sb = new SolidBrush(newC);
-            SharpDX.Direct2D1.Brush b = convertBrush(sb);
-            sb.Dispose();
+            SharpDX.Direct2D1.Brush b = convertBrush(new SolidBrush(newC));
 
             _DX2Brushes.Add(newC, b);
 
